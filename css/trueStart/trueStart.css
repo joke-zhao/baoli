@@ -1,0 +1,155 @@
+/* 头部开始 */
+header{width: 100%; height: 80px; position: relative; z-index: 1; line-height: 80px;  transition: .2s ease-in; border-top: 5px #d8201a solid; background-color: white;}
+header > .imgs{margin-left: 10.9%; width: 13% ;background: url(../../img/Logo1.png) no-repeat; height: 75px; line-height: 71px;background-size: 100% 100%; position: absolute;  transition: .2s ease-in;}
+header > ul{width: 70%; position: absolute; top: 0px; height: 80px; margin-left: 37%;}
+header > ul > a{font-weight: bold; font-size: 25px; color: black; transition: .2s ease-in;}
+header:hover > ul > a{color: black; transition: .2s ease-in;}
+header > ul > a > li{float: left; height: 100%; line-height: 80px; width: 120px; text-align: center; margin-right: 43px;}
+header > ul > a > li:hover{margin-top: 0px;background-color: #d8201a; color: white;transition: .3s ease-in;}
+/* 头部结束 */
+.banner{background: url(../../img/trueStart/banner.webp) no-repeat; background-size: 100% 100%; width: 100%; height: 500px;}
+
+/* 内容开始 */
+.content{width: 100%; margin: 0 auto;background: url(../../img/trueStart/background.png) no-repeat; background-position: right bottom;}
+.content >.center {width: 1500px; margin: 0 auto; height: 1020px; }
+.content >.center > .contentTop{width: 100%; height: 100px;}
+.content >.center > .contentTop > li{float: left; width: 33%; height: 100%; background-color: #f5f5f5; line-height: 100px;}
+.content >.center > .contentTop > li:nth-child(1){background-color: #f0f0f0;}
+.content >.center > .contentTop > li > a{display: block;height: 100%;position: relative; color: #000000;}
+.content >.center > .contentTop > li:nth-child(1) > a> font{color: #bd3336;}
+.content >.center > .contentTop > li > a > font{margin-left: 75px;font-size: 26px; font-weight: 600;}
+.content >.center > .contentTop > li > a > span{position: absolute; right: 45px; font-size: 35px;}
+.content >.center > .contentMiddle{width: 100%; height: 60px; line-height: 60px;}
+.content >.center > .contentMiddle > li{float: left; margin-left: 90px; cursor: pointer;}
+.content >.center > .contentMiddle > li:nth-child(1){color: #BD3336;}
+.content >.center > .contentBottom{width: 100%; margin-top: 40px;}
+.content >.center > .contentBottom > li{float: left; width: 440px; height: 495px; border: 2px solid #BD3336; margin: 3px 3px 32px 45px; border-radius: 10px; position: relative;}
+.content >.center > .contentBottom > li > img{width: 430px; height: 280px; position: absolute; top: 15px; left: 0px;}
+.content >.center > .contentBottom > li >p{position: absolute; top: 290px; left: 68px; font-size: 30px; text-align: center; width: 300px;}
+.content >.center > .contentBottom > li >a{position: absolute; top: 417px; left: 181px; font-size: 15px; color: #000000;}
+.content >.center > .contentBottom > li >a:hover{color: #BD3336;}
+/* 内容结束 */
+
+/* 底部开始 */
+footer{width: 100%; height: 300px; background-color: #f1f1f1; position: relative;}
+footer > .logo{margin-left: 14%; height: 50px; width: 8%; top: 127px; position: absolute; margin-right: 3%; display: inline-block;}
+footer > .logo >img{width: 100%; height: 100%;}
+footer > .footerContent{width: 53%; height: 200px; display: inline-block; margin-left:25%; border-left: 2px solid #b00000; position: absolute; top: 50px;}
+footer > .footerContent > dl{float: left; width: 14%;margin-right: 16%;}
+footer > .footerContent > dl:nth-child(1){margin-left: 5.6%;}
+footer > .footerContent > dl > dt{font-weight: bold; font-size: 18px;}
+footer > .footerContent > dl > dt > a{color: #111111;}
+footer > .footerContent > dl > dd{margin-top: 15px;}
+footer > .footerContent > dl > dd > a{color: #6b6b6b;}
+footer > .footerContent > dl > dd > a:hover{color: #b20101;}
+footer > .footerContent > .footerContentFoot{width: 300%; height: 22px; margin-left: 5.6%; position: absolute;bottom: 0;}
+footer > .footerContent > .footerContentFoot > img{width: 23px; height: 23px;}
+footer > .footerContent > .footerContentFoot > div{font-weight: bold; display: inline-block; line-height: 28px; height: 28px; font-size: 10px; position: absolute;}
+footer > .footerRiht{width: 8.9%; height: 202px; position: absolute; top: 48px; margin-left: 75.5%; text-align: center;}
+footer > .footerRiht > img.erweima{width: 6.25rem; height: 6.25rem;}
+footer > .footerRiht > div{font-weight: bold;margin-top: 10px; margin-bottom: 32px;}
+/* 底部结束 */
+
+@media screen and (max-width:1680px) {
+	header{height: 63px; line-height: 63px;}
+	header > .imgs{height: 64px;}
+	header > ul{height: 63px;}
+	header > ul > a{font-size: 23px;}
+	header > ul > a > li{margin-right: 14px; line-height: 65px;}
+	.banner{height: 420px;}
+	.content{height: 1080px;}
+	.content >.center{width: 1200px; height: 100%;}
+	.content >.center > .contentTop{height: 75px;}
+	.content >.center > .contentTop > li{line-height: 75px;}
+	.content >.center > .contentTop > li > a > font{margin-left: 58px; font-size: 20px;}
+	.content >.center > .contentTop > li > a > span{right: 40px; font-size: 29px;}
+	.content >.center > .contentBottom > li{height: 420px; width: 355px;  margin: 3px 3px 3px 24px;}
+	.content >.center > .contentBottom > li > img{width: 345px; height: 246px; top: 8px;}
+	.content >.center > .contentBottom > li >p{top: 245px; left: 32px; font-size: 25px;}
+	.content >.center > .contentBottom > li >a{top: 356px; left: 144px;}
+	footer{height: 181px;}
+	footer > .logo{top: 56px;}
+	footer > .footerContent{top: 20px; height: 133px;}
+	footer > .footerContent >dl > dt{font-size: 16px;}
+	footer > .footerContent >dl > dd{font-size: 10px; margin-top: 11px;}
+	footer > .footerContent > .footerContentFoot > img {width: 24px;height: 22px;}
+	footer > .footerRiht{top: 20px; width: 10.9%; height: 153px;}
+	footer > .footerRiht > img.erweima{width: 50px; height: 50px;}
+	footer > .footerRiht > div{margin-bottom: 10px;}
+}
+@media screen and (max-width:1366px) {
+	header{height: 50px; line-height: 50px;}
+	header > .imgs{height: 51px; width: 157px;}
+	header > ul{height: 50px;}
+	header > ul > a{font-size: 19px;}
+	header > ul > a > li{line-height: 52px; width: 92px; margin-right: 24px;}
+	.banner{height: 335px;}
+	.content{height: 850px; background-size: 100% 256px;}
+	.content >.center{width: 1006px;}
+	.content >.center > .contentTop{height: 67px;}
+	.content >.center > .contentTop > li{line-height: 67px;}
+	.content >.center > .contentTop > li > a > font{margin-left: 53px; font-size: 17px;}
+	.content >.center > .contentTop > li > a > span{right: 32px; font-size: 25px;}
+	.content >.center > .contentMiddle{font-size: 13px;height: 40px; line-height: 40px;}
+	.content >.center > .contentMiddle > li{margin-left: 62px;}
+	.content >.center > .contentBottom{margin-top: 27px;}
+	.content >.center > .contentBottom > li{margin: 3px 3px 3px 32px;width: 294px; height: 331px;}
+	.content >.center > .contentBottom > li > img{width: 294px; height: 189px;top: 6px;}
+	.content >.center > .contentBottom > li >p{top: 192px;font-size: 22px;left: -2px;}
+	.content >.center > .contentBottom > li >a{font-size: 11px; top: 282px; left: 124px;}
+	footer > .footerContent > .footerContentFoot > div {font-size: 8px;}
+	footer > .footerContent > .footerContentFoot > img {height: 15px; width: 15px;	}
+	footer > .logo{width: 10%; height: 50px;}
+}
+@media screen and (max-width:1100px) {
+	header{height: 47px;}
+	header > ul {width: 56%; height: 47px;}
+	header > ul > a {font-size: 14px;}
+	header > ul > a > li{width: 78px; margin-right: 13px; line-height: 47px;}
+	header > .imgs{height: 46px;}
+	.banner{height: 282px;}
+	.content{height: 720px;background-size: 100% 210px;}
+	.content >.center{width: 855px;}
+	.content >.center > .contentTop{height: 58px;}
+	.content >.center > .contentTop > li{line-height: 58px;}
+	.content >.center > .contentTop > li > a > font{font-size: 15px;margin-left: 41px;}
+	.content >.center > .contentTop > li > a > span{font-size: 19px;right: 25px;}
+	.content >.center > .contentMiddle{font-size: 10px;height: 34px; line-height: 34px;}
+	.content >.center > .contentBottom > li{margin: 3px 3px 3px 25px;width: 250px; height: 278px;}
+	.content >.center > .contentBottom > li > img{width: 250px; top: 10px;height: 154px;}
+	.content >.center > .contentBottom > li >p{font-size: 18px;top: 161px; left: -25px;}
+	.content >.center > .contentBottom > li >a{font-size: 9px; left: 101px;top: 233px;}
+	footer{height: 147px;}
+	footer > .logo{height: 45px; width: 11%;}
+	footer > .footerContent {height: 107px;}
+	footer > .footerContent >dl > dt {font-size: 13px;}
+	footer > .footerContent >dl > dd {font-size: 8px;margin-top: 6px;}
+	footer > .footerContent > .footerContentFoot > img{height: 14px;}
+	footer > .footerContent > .footerContentFoot > div{font-size: 7px;}
+	footer > .footerRiht{height: 110px;}
+}
+@media screen and (max-width:1024px) {
+	header{height: 50px;}
+	header > .imgs{height: 47px;}
+	header > ul{height: 50px; line-height: 50px;}
+	header > ul > a > li {width: 62px;margin-right: 22px; line-height: 50px;}
+	.banner{height: 238px;}
+	.content{height: 630px;background-size: 100% 184px;}
+	.content >.center{width: 752px;}
+	.content >.center > .contentTop{height: 49px;}
+	.content >.center > .contentTop > li{line-height: 49px;}
+	.content >.center > .contentTop > li > a > font{font-size: 13px;margin-left: 38px;}
+	.content >.center > .contentMiddle{height: 30px; line-height: 30px;font-size: 9px;}
+	.content >.center > .contentMiddle > li{margin-left: 46px;}
+	.content >.center > .contentBottom{margin-top: 18px;}
+	.content >.center > .contentBottom > li{margin: 3px 3px 3px 23px;width: 217px;height: 247px;}
+	.content >.center > .contentBottom > li > img{width: 217px;top: 8px;height: 139px;}
+	.content >.center > .contentBottom > li >p{font-size: 14px;left: -42px;top: 145px;}
+	.content >.center > .contentBottom > li >a{font-size: 8px;left: 85px;top: 208px;}
+	footer {height: 141px;}
+	footer > .footerContent >dl > dt {font-size: 12px;}
+	footer > .footerContent >dl > a > dd {font-size: 9px;}
+	footer > .logo {height: 42px;}
+	footer > .footerContent {height: 114px;}
+	footer > .footerRiht {height: 99px;}
+}

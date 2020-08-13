@@ -1,0 +1,148 @@
+/* 头部开始 */
+header{width: 100%; height: 80px; position: relative; z-index: 1; line-height: 80px;  transition: .2s ease-in; border-top: 5px #d8201a solid; background-color: white;}
+header > .imgs{margin-left: 10.9%; width: 13% ;background: url(../../img/Logo1.png) no-repeat; height: 75px; line-height: 71px;background-size: 100% 100%; position: absolute;  transition: .2s ease-in;}
+header > ul{width: 70%; position: absolute; top: 0px; height: 80px; margin-left: 37%;}
+header > ul > a{font-weight: bold; font-size: 25px; color: black; transition: .2s ease-in;}
+header:hover > ul > a{color: black; transition: .2s ease-in;}
+header > ul > a > li{float: left; height: 100%; line-height: 80px; width: 120px; text-align: center; margin-right: 43px;}
+header > ul > a > li:hover{margin-top: 0px;background-color: #d8201a; color: white;transition: .3s ease-in;}
+.banner{width: 100%;}
+ul.content{width: 1400px; margin: 0 auto 71px auto;height: 400px; margin-top: 110px; border-radius: 25px; border: 1px solid #e2e2e2; box-shadow: 9px 6px 14px #bcbcbc;}
+ul.content > li {float: left; width: 350px; height: 100%; position: relative;}
+ul.content > li >font{font-size: 90px;position: absolute;left: 115px; top: 112px;}
+ul.content > li >div.heng{width: 35px; height:3px; background-color: #BD3336; position: absolute; left: 142px; top: 218px;}
+ul.content > li:nth-child(2) >div.heng{left: 148px;}
+ul.content > li:nth-child(3) >div.heng{left: 148px;}
+ul.content > li:nth-child(4) >div.heng{left: 158px;}
+ul.content > li > span{left: 129px; position: absolute; top: 225px; font-weight: 600;}
+ul.content > li:nth-child(2) > span{left:134px;}
+ul.content > li:nth-child(3) > span{left: 135px;}
+ul.content > li:nth-child(4) > span{left: 143px;}
+ul.content > li > p{position: absolute;left: 80px; width: 50%; text-align: center; top: 275px; color: #444444; font-weight: bold;}
+ul.content > li:nth-child(1) > p{width: 210px; left: 59px;}
+ul.content > li > div.shu{background-color: #dedede; width: 3px; height: 180px; position: absolute; right: 0; top: 109px;}
+.maps{margin: 0 auto; width: 1400px;height: 690px; position: relative;}
+.maps > #container{position: absolute;margin-top:30px;width:1400px; height: 590px;border: 1px solid gray;overflow:hidden;}
+/* 底部开始 */
+.clear{clear: both;}
+footer{width: 100%; height: 300px; background-color: #f1f1f1; position: relative;}
+footer > .logo{margin-left: 14%; height: 50px; width: 8%; top: 127px; position: absolute; margin-right: 3%; display: inline-block;}
+footer > .logo >img{width: 100%; height: 100%;}
+footer > .footerContent{width: 53%; height: 200px; display: inline-block; margin-left:25%; border-left: 2px solid #b00000; position: absolute; top: 50px;}
+footer > .footerContent > dl{float: left; width: 14%;margin-right: 16%;}
+footer > .footerContent > dl:nth-child(1){margin-left: 5.6%;}
+footer > .footerContent > dl > dt{font-weight: bold; font-size: 18px;}
+footer > .footerContent > dl > dt > a{color: #111111;}
+footer > .footerContent > dl > dd{margin-top: 15px;}
+footer > .footerContent > dl > dd > a{color: #6b6b6b;}
+footer > .footerContent > dl > dd > a:hover{color: #b20101;}
+footer > .footerContent > .footerContentFoot{width: 300%; height: 22px; margin-left: 5.6%; position: absolute;bottom: 0;}
+footer > .footerContent > .footerContentFoot > img{width: 23px; height: 23px;}
+footer > .footerContent > .footerContentFoot > div{font-weight: bold; display: inline-block; line-height: 28px; height: 28px; font-size: 10px; position: absolute;}
+footer > .footerRiht{width: 8.9%; height: 202px; position: absolute; top: 48px; margin-left: 75.5%; text-align: center;}
+footer > .footerRiht > img.erweima{width: 6.25rem; height: 6.25rem;}
+footer > .footerRiht > div{font-weight: bold;margin-top: 10px; margin-bottom: 32px;}
+/* 底部结束 */
+
+/* 头部结束 */
+@media screen and (max-width:1680px) {
+	header{height: 63px; line-height: 63px;}
+	header > .imgs{height: 64px;}
+	header > ul{height: 63px;}
+	header > ul > a{font-size: 23px;}
+	header > ul > a > li{margin-right: 14px; line-height: 65px;}
+	ul.content{width: 1116px; height: 320px; margin-top: 86px;}
+	ul.content > li{width: 275px;}
+	ul.content > li > font{font-size: 60px; left: 110px; top: 85px;}
+	ul.content > li >div.heng {left: 123px;top: 159px;}
+	ul.content > li:nth-child(2) >div.heng {left: 128px;}
+	ul.content > li:nth-child(3) >div.heng {left: 125px;}
+	ul.content > li:nth-child(4) >div.heng {left: 133px;}
+	ul.content > li > span {left: 109px;top: 171px;}
+	ul.content > li:nth-child(2) > span {left: 114px;}
+	ul.content > li:nth-child(3) > span {left: 112px;}
+	ul.content > li:nth-child(4) > span {left: 122px;}
+	ul.content > li > p {left: 76px; top: 209px;}
+	ul.content > li:nth-child(1) > p {width: 210px;left: 44px;}
+	ul.content > li > div.shu {height: 144px;top: 84px;}
+	.maps{width: 1138px;}
+	.maps > #container {width: 1138px;}
+	footer{height: 181px;}
+	footer > .logo{top: 56px;}
+	footer > .footerContent{top: 20px; height: 133px;}
+	footer > .footerContent >dl > dt{font-size: 16px;}
+	footer > .footerContent >dl > dd{font-size: 10px; margin-top: 11px;}
+	footer > .footerContent > .footerContentFoot > img {width: 24px;height: 22px;}
+	footer > .footerRiht{top: 20px; width: 10.9%; height: 153px;}
+	footer > .footerRiht > img.erweima{width: 50px; height: 50px;}
+	footer > .footerRiht > div{margin-bottom: 10px;}
+}
+@media screen and (max-width:1366px) {
+	header{height: 50px; line-height: 50px;}
+	header > .imgs{height: 51px; width: 157px;}
+	header > ul{height: 50px;}
+	header > ul > a{font-size: 19px;}
+	header > ul > a > li{line-height: 52px; width: 92px; margin-right: 24px;}
+	ul.content{width: 919px; height: 259px; margin-top: 59px;}
+	ul.content > li{width: 228px;}
+	ul.content > li > font {font-size: 48px;left: 90px;top: 64px;}
+	ul.content > li >div.heng {left: 101px;top: 121px; width: 25px; height: 2px;}
+	ul.content > li:nth-child(2) >div.heng {left: 105px;}
+	ul.content > li:nth-child(3) >div.heng {left: 106px;}
+	ul.content > li:nth-child(4) >div.heng {left: 110px;}
+	ul.content > li > span {left: 89px;top: 131px;font-size: 12px;}
+	ul.content > li:nth-child(2) > span {left: 93px;}
+	ul.content > li:nth-child(3) > span {left: 94px;}
+	ul.content > li:nth-child(4) > span {left: 97px;}
+	ul.content > li > div.shu {height: 126px;top: 70px;}
+	ul.content > li > p {top: 169px; font-size: 12px; left: 61px;}
+	ul.content > li:nth-child(1) > p {width: 164px;left: 32px;}
+	.maps{width: 927px; height: 550px;}
+	.maps > #container {width: 927px; height: 470px;}
+	footer > .footerContent > .footerContentFoot > div {font-size: 8px;}
+	footer > .footerContent > .footerContentFoot > img {height: 15px; width: 15px;	}
+	footer > .logo{width: 10%; height: 50px;}
+}
+@media screen and (max-width:1100px) {
+	header{height: 47px;}
+	header > ul {width: 56%; height: 47px;}
+	header > ul > a {font-size: 14px;}
+	header > ul > a > li{width: 78px; margin-right: 13px; line-height: 47px;}
+	header > .imgs{height: 46px;}
+	ul.content{width: 785px; height: 230px;}
+	ul.content > li {width: 195px;}
+	ul.content > li > div.shu {width: 2px; height: 111px;}
+	ul.content > li > font {font-size: 41px;left: 77px;top: 64px;}
+	ul.content > li >div.heng {left: 87px;top: 111px;width: 21px;height: 2px;}
+	ul.content > li:nth-child(2) >div.heng {left: 91px;}
+	ul.content > li:nth-child(3) >div.heng {left: 89px;}
+	ul.content > li:nth-child(4) >div.heng {left: 96px;}
+	ul.content > li > span {left: 75px;top: 118px;font-size: 11px;}
+	ul.content > li:nth-child(2) > span {left: 80px;}
+	ul.content > li:nth-child(3) > span {left: 77px;}
+	ul.content > li:nth-child(4) > span {left: 84px;}
+	ul.content > li > p {top: 148px;font-size: 11px;left: 53px;}
+	ul.content > li:nth-child(1) > p {width: 150px;left: 27px;}
+	.maps{width: 790px; height: 490px;}
+	.maps > #container {width: 790px;height: 383px;}
+	footer{height: 147px;}
+	footer > .logo{height: 45px; width: 11%;}
+	footer > .footerContent {height: 107px;}
+	footer > .footerContent >dl > dt {font-size: 13px;}
+	footer > .footerContent >dl > dd {font-size: 8px;margin-top: 6px;}
+	footer > .footerContent > .footerContentFoot > img{height: 14px;}
+	footer > .footerContent > .footerContentFoot > div{font-size: 7px;}
+	footer > .footerRiht{height: 110px;}
+}
+@media screen and (max-width:1024px) {
+	header{height: 50px;}
+	header > .imgs{height: 47px;}
+	header > ul{height: 50px; line-height: 50px;}
+	header > ul > a > li {width: 62px;margin-right: 22px; line-height: 50px;}
+	footer {height: 141px;}
+	footer > .footerContent >dl > dt {font-size: 12px;}
+	footer > .footerContent >dl > dd {font-size: 9px;}
+	footer > .logo {height: 42px;}
+	footer > .footerContent {height: 114px;}
+	footer > .footerRiht {height: 99px;}
+}

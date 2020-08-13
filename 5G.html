@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>5G+</title>
+	<script src="https://www.jq22.com/jquery/vue.min.js"></script>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/jquery.jqprint-0.3.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/5G/5G.css"/>
+	<link rel="stylesheet" type="text/css" href="css/5G/icon/iconfont.css"/>
+</head>
+<body id="bodys">
+		<header>
+			<div class="imgs"></div>
+			<ul>
+				<a href="index.html">
+					<li>首页</li>
+				</a>
+				<a href="trueStart.html">
+					<li>产品服务</li>
+				</a>
+				<a href="smartSite.html">
+					<li>解决方案</li>
+				</a>
+				<a href="case.html">
+					<li>成功案例</li>
+				</a>
+				<a href="aboutUS.html">
+					<li>关于我们</li>
+				</a>
+			</ul>
+			<div class="clear"></div>
+		</header>
+		<div id="app">
+			<img :src="img" class="banner">
+			<font v-text="banneTitleOne"></font>
+			<font v-text="banneTitleTwo"></font>
+			<div class="contents">
+				<div v-text="title" class="title"></div>
+				<hr color="#cccccc">
+				<div class="left">
+					<dl>
+						<dt @click="move()">
+							<span class="iconfont">&#xe60d;</span>
+							<span>解决方案</span>
+							<span v-text="productTitle"></span>
+						</dt>
+						<a :href="item.href"  v-for="(item, i) in arr"><dd>{{ item.name }}</dd></a>
+					</dl>
+				</div>
+				<div class="right">
+					<div v-text="RightTitle" class="title"></div>
+					<div class="fonts">
+						<span @click="dayin()">【打印】</span>
+						<span>【字体：<font @click="big()">大</font> <font @click="middle()">中</font> <font @click="small()">小</font>】</span>
+						<span>【本篇访问：453】</span>
+					</div>
+					<hr style="border: 1px dashed #e1e1e1; margin-top: 10px;">
+					<div class="content"	>
+						<span>方案概述：</span>
+						<p>智能配电房解决方案综合运用5G、物联网、大数据、人工智能等新技术，对配电房的人员出入、设备状态、环境参量、用电情况等进行多维度监测，通过监测数据的实时分析和智能预警，减少用电浪费和改善电力的能效管理，实现智能配电和智慧用电。</p>
+						<span>主要功能：</span>
+						<p>1、安防监控：对进出配电房的人员进行身份认证、门禁出入等进行在线监测；</p>
+						<p>2、视频监控：对配电房环境及设备进行视频监控，实现远程控制和联动分析；</p>
+						<p>3、设备状态监控：实时采集配电房内的柜体、电缆头、梅花触头、母排、变压去等主要设备参数进行在线监测；</p>
+						<p>4、环境监控：对配电房的综合环境参量（温度、适度、气体、噪声、水浸等）进行在线监测。</p>
+						<p>5、用电管理：实时采集用电数据、并关联能效指标进行实时分析，根据数据分析情况优化用电方式，实现用电的智能化管理。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="logo">
+				<img src="img/logo.png" alt="宝立logo">
+			</div>
+			<div class="footerContent">
+				<dl>
+					<dt><a href="aboutUS.html">关于我们</a></dt>
+					<dd><a href="aboutUS.html">公司介绍</a></dd>
+					<dd><a href="#">企业文化</a></dd>
+					<dd><a href="ContactUs.html">联系我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="trueStart.html">产品服务</a></dt>
+					<dd><a href="trueStart.html">信创产品</a></dd>
+					<dd><a href="service.html">云监测</a></dd>
+					<dd><a href="data.html">数据服务</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">加入我们</a></dt>
+					<dd><a href="#">招纳贤士</a></dd>
+				</dl>
+				<div class="clear"></div>
+				<div class="footerContentFoot">
+					<img src="img/jinghui.png" alt="警徽">
+					<div style="text-indent: 6px;">粤ICP备16021202号 | 2020 Copyright &copy; Guangzhou Baoli Technology Co., Ltd | 版权所有     2015-2020 广州宝立科技有限公司</div>
+				</div>
+			</div>
+			<div class="footerRiht">
+				<img src="img/erweima.png" alt="宝立二维码" class="erweima">
+				<div>关注我们</div>
+			</div>
+		</footer>
+	</body>
+	<script src="js/5G.js" type="text/javascript" charset="utf-8"></script>
+</html>

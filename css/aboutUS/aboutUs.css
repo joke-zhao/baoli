@@ -1,0 +1,247 @@
+/* 头部开始 */
+header{width: 100%; height: 80px; position: relative; z-index: 1; line-height: 80px;  transition: .2s ease-in; border-top: 5px #d8201a solid; background-color: white;}
+header > .imgs{margin-left: 10.9%; width: 13% ;background: url(../../img/Logo1.png) no-repeat; height: 75px; line-height: 71px;background-size: 100% 100%; position: absolute;  transition: .2s ease-in;}
+header > ul{width: 70%; position: absolute; top: 0px; height: 80px; margin-left: 37%;}
+header > ul > a{font-weight: bold; font-size: 25px; color: black; transition: .2s ease-in;}
+header:hover > ul > a{color: black; transition: .2s ease-in;}
+header > ul > a > li{float: left; height: 100%; line-height: 80px; width: 120px; text-align: center; margin-right: 43px;}
+header > ul > a > li:hover{margin-top: 0px;background-color: #d8201a; color: white;transition: .3s ease-in;}
+/* 头部结束 */
+.banner{background: url(../../img/aboutUs/head.webp) no-repeat 100% 100%; width: 100%; height: 400px; background-size: 100% 100%;}
+
+/* 公司介绍开始 */
+.CompanyProfile{position: relative; height: 660px;}
+.CompanyProfile > span{position: absolute; left: 42%;text-shadow: 2px 6px 24px #999999; color: white; font-size: 40px; opacity: .5; top: 19px;}
+.CompanyProfile > h1{width: 100%; height: 100px; line-height: 100px; text-align: center;font-size: 45px; margin-top: 20px; position: absolute; z-index: 3;}
+.CompanyProfile > .contenr{width: 75%;height: 410px; margin: 0 auto;position: relative;top: 137px;}
+.CompanyProfile > .contenr > .left{float: left; width: 50%; height: 437px; position: relative;}
+.CompanyProfile > .contenr > .left > img{width: 100%; height: 100%;}
+.CompanyProfile > .contenr .right{float: left; width: 42%;margin-left: 8%; border-top: 1px solid #d8201a;}
+.CompanyProfile > .contenr > .right > p{letter-spacing: 6px;text-indent: 2em; margin-top: 5px; line-height: 24px;}
+.CompanyProfile > .contenr > .right > ul{width: 100%;margin-top: 5px;margin-left: -3%;}
+.CompanyProfile > .contenr > .right > ul > li{float: left; width: 20%;}
+.CompanyProfile > .contenr > .right > ul > li > a >div{width: 50%;margin: 0 auto; background-color: #ff0000; border-radius: 55px; height: 56px; line-height: 56px; text-align: center; font-size: 47px;}
+.CompanyProfile > .contenr > .right > ul > li > a >p{width: 100%; text-align: center; font-size: 18px; color: black;}
+/* 公司介绍结束 */
+
+/* 资质荣誉开始 */
+.honour{background-color: #edf5ff; margin-top: 45px; position: relative; height: 743px;}
+.honour > h1{width: 100%; height: 100px; line-height: 155px; text-align: center;font-size: 45px; margin-top: 20px; position: absolute; top: -21px; z-index: 3;}
+.honour > div.tops{position: absolute; left: 42%;text-shadow: 2px 6px 24px #999999; color: white; font-size: 40px; opacity: .5; top: 23px;}
+.wrap {position: relative;width: 1297px;height: 360px;margin: 0px auto;top: 230px; transform: scale(1.15);}
+.wrap > .content {position: absolute;width: 100%;height: 360px; transform: scale(1,1.4);}
+.content li{position: absolute;background-size: 100% 100%;cursor: pointer;}
+.wrap a {position: absolute;display: none;z-index: 2;top: 41%;width: 60px;height: 60px;margin-top: -30px;font: 100px "宋体";text-align: center;text-decoration: none;color: #b2caff;transition: background 1s ease; font-weight: bolder;}
+.prev {left: 10px;}
+.next {right: 0px;}
+/* 资质荣誉结束 */
+
+/* 发展历史开始 */
+.history{position: relative; height: 781px; background: url(../../img/aboutUs/background.webp) no-repeat; background-size: 100% 100%;}
+.history > h1{width: 100%; height: 100px; line-height: 155px; text-align: center;font-size: 45px; margin-top: 20px; position: absolute; top: -21px; z-index: 3;}
+.history > div.tops{position: absolute; left: 39%;text-shadow: 2px 6px 24px #999999; color: white; font-size: 40px; opacity: .5; top: 23px;}
+.history > div.content{position: relative; top: 100px;width: 80%; margin: 0 auto; height: 506px; position: relative;}
+.history > div.content >img{position: absolute; width: 100%; top: -40px;}
+.history > div.content >p{width: 15%;position: absolute; opacity: 0;}
+.history > div.content >p:nth-child(2){top: 41px; left: 10%;}
+.history > div.content >p:nth-child(3){top: 498px; left: 21%;}
+.history > div.content >p:nth-child(4){top: 41px; left: 31%;}
+.history > div.content >p:nth-child(5){top: 498px; left: 43%;}
+.history > div.content >p:nth-child(6){top: 41px; left: 53%;}
+.history > div.content >p:nth-child(7){top: 447px; left: 65%;}
+.history > div.content >p:nth-child(8){top: 41px; left: 77%;}
+.history > div.content >p:nth-child(9){top: 346px; left: 14.5%; font-size: 30px; color: #d9221c;}
+.history > div.content >p:nth-child(10){top: 220px; left: 25%; font-size: 30px; color: #0072ff;}
+.history > div.content >p:nth-child(11){top: 346px; left: 36%; font-size: 30px; color: #4edcff;}
+.history > div.content >p:nth-child(12){top: 220px; left: 48%; font-size: 30px; color: #d9221c;}
+.history > div.content >p:nth-child(13){top: 352px; left: 58.5%; font-size: 30px; color: #0072ff;}
+.history > div.content >p:nth-child(14){top: 220px; left: 68.6%; font-size: 30px; color: #4edcff;}
+.history > div.content >p:nth-child(15){top: 352px; left: 80.5%; font-size: 30px; color: #d9221c;}
+@keyframes shows{
+	0% {opacity: 0;}
+	100%{opacity: 1;}
+}
+/* 发展历史结束 */
+/* 底部开始 */
+.clear{clear: both;}
+footer{width: 100%; height: 300px; background-color: #f1f1f1; position: relative;}
+footer > .logo{margin-left: 14%; height: 50px; width: 8%; top: 127px; position: absolute; margin-right: 3%; display: inline-block;}
+footer > .logo >img{width: 100%; height: 100%;}
+footer > .footerContent{width: 53%; height: 200px; display: inline-block; margin-left:25%; border-left: 2px solid #b00000; position: absolute; top: 50px;}
+footer > .footerContent > dl{float: left; width: 14%;margin-right: 16%;}
+footer > .footerContent > dl:nth-child(1){margin-left: 5.6%;}
+footer > .footerContent > dl > dt{font-weight: bold; font-size: 18px;}
+footer > .footerContent > dl > dt > a{color: #111111;}
+footer > .footerContent > dl > dd{margin-top: 15px;}
+footer > .footerContent > dl > dd > a{color: #6b6b6b;}
+footer > .footerContent > dl > dd > a:hover{color: #b20101;}
+footer > .footerContent > .footerContentFoot{width: 300%; height: 22px; margin-left: 5.6%; position: absolute;bottom: 0;}
+footer > .footerContent > .footerContentFoot > img{width: 23px; height: 23px;}
+footer > .footerContent > .footerContentFoot > div{font-weight: bold; display: inline-block; line-height: 28px; height: 28px; font-size: 10px; position: absolute;}
+footer > .footerRiht{width: 8.9%; height: 202px; position: absolute; top: 48px; margin-left: 75.5%; text-align: center;}
+footer > .footerRiht > img.erweima{width: 6.25rem; height: 6.25rem;}
+footer > .footerRiht > div{font-weight: bold;margin-top: 10px; margin-bottom: 32px;}
+/* 底部结束 */
+
+
+@media screen and (max-width:1680px) {
+	header{height: 63px; line-height: 63px;}
+	header > .imgs{height: 64px;}
+	header > ul{height: 63px;}
+	header > ul > a{font-size: 23px;}
+	header > ul > a > li{margin-right: 14px; line-height: 65px;}
+	.CompanyProfile >span{left:39%}
+	.CompanyProfile > .contenr > .left{height: 409px;}
+	.CompanyProfile > .contenr > .right > p {font-size: 13px;line-height: 24px;margin-top: 2px;letter-spacing: 4px;}
+	.CompanyProfile > .contenr > .right > ul > li > a > div{height: 46px;line-height: 49px; font-size: 36px;}
+	.honour{height: 662px;}
+	.honour > div.tops{left: 39%;}
+	.wrap{transform: scale(.9); top: 215px;}
+	.banner{height: 362px;}
+	.history{height: 667px;}
+	.history > div.tops{left: 39%;}
+	.history > div.content > p:nth-child(2){top:45px;}
+	.history > div.content > p:nth-child(3){top:390px;}
+	.history > div.content > p:nth-child(4){top:15px;}
+	.history > div.content > p:nth-child(5){top:390px;}
+	.history > div.content > p:nth-child(6){top:20px;}
+	.history > div.content > p:nth-child(7){top:351px; font-size: 14px;}
+	.history > div.content > p:nth-child(8){top:43px;}
+	.history > div.content > p:nth-child(9){top:269px; left: 14%;}
+	.history > div.content > p:nth-child(10){top:190px; left: 24.5%;}
+	.history > div.content > p:nth-child(11){top:269px; left: 35.6%;}
+	.history > div.content > p:nth-child(12){top:190px; left: 46.9%;}
+	.history > div.content > p:nth-child(13){top:269px; left: 57.9%;}
+	.history > div.content > p:nth-child(14){top:190px; left: 68.2%;}
+	.history > div.content > p:nth-child(15){top:269px; left: 80.2%;}
+	footer{height: 181px;}
+	footer > .logo{top: 56px;}
+	footer > .footerContent{top: 20px; height: 133px;}
+	footer > .footerContent >dl > dt{font-size: 16px;}
+	footer > .footerContent >dl > dd{font-size: 10px; margin-top: 11px;}
+	footer > .footerContent > .footerContentFoot > img {width: 24px;height: 22px;}
+	footer > .footerRiht{top: 20px; width: 10.9%; height: 153px;}
+	footer > .footerRiht > img.erweima{width: 50px; height: 50px;}
+	footer > .footerRiht > div{margin-bottom: 10px;}
+}
+@media screen and (max-width:1366px) {
+	header{height: 50px; line-height: 50px;}
+	header > .imgs{height: 51px; width: 157px;}
+	header > ul{height: 50px;}
+	header > ul > a{font-size: 19px;}
+	header > ul > a > li{line-height: 52px; width: 92px; margin-right: 24px;}
+	.banner{height: 292px;}
+	.CompanyProfile{height: 580px;}
+	.CompanyProfile > span{left: 38%;}
+	.CompanyProfile > h1{font-size: 42px;}
+	.CompanyProfile > .contenr > .left{height: 350px;}
+	.CompanyProfile > .contenr > .right > p{font-size: 11px; line-height: 17.5px;}
+	.CompanyProfile > .contenr > .right > ul > li > a > div{height: 42px;line-height: 42px;font-size: 34px;}
+	.honour{height: 573px;}
+	.honour > h1{font-size: 42px;}
+	.honour > div.tops{left: 35%;}
+	.wrap{transform: scale(.75); top: 146px;}
+	.history{height: 625px;}
+	.history > h1{font-size: 42px;}
+	.history > div.tops{left: 34%;}
+	.history > div.content{top: 138px;}
+	.history > div.content > p{font-size: 12px;}
+	.history > div.content >p:nth-child(3){top: 322px;}
+	.history > div.content >p:nth-child(5){top: 322px;}
+	.history > div.content >p:nth-child(7){top: 292px; font-size: 12px;}
+	.history > div.content >p:nth-child(9){top: 216px; left: 13.5%;}
+	.history > div.content >p:nth-child(10){top: 140px; left: 24%;}
+	.history > div.content >p:nth-child(11){top: 216px; left: 35%;}
+	.history > div.content >p:nth-child(12){top: 140px; left: 46.5%;}
+	.history > div.content >p:nth-child(13){top: 216px; left: 57.2%;}
+	.history > div.content >p:nth-child(14){top: 140px; left: 67.5%;}
+	.history > div.content >p:nth-child(15){top: 216px; left: 80%;}
+	footer > .footerContent > .footerContentFoot > div {font-size: 8px;}
+	footer > .footerContent > .footerContentFoot > img {height: 15px; width: 15px;	}
+	footer > .logo{width: 10%; height: 50px;}
+}
+@media screen and (max-width:1100px) {
+	header{height: 47px;}
+	header > ul {width: 56%; height: 47px;}
+	header > ul > a {font-size: 14px;}
+	header > ul > a > li{width: 78px; margin-right: 13px; line-height: 47px;}
+	header > .imgs{height: 46px;}
+	.banner{height: 266px;}
+	.CompanyProfile{height: 468px;}
+	.CompanyProfile > h1{font-size: 35px;}
+	.CompanyProfile > span{font-size: 30px; left: 39%;}
+	.CompanyProfile >.contenr > .left{height: 280px;}
+	.CompanyProfile > .contenr > .right > p{font-size: 9px; line-height: 13px; letter-spacing: 6px;}
+	.CompanyProfile > .contenr > .right > ul > li > a > div{height: 34px; line-height: 34px; font-size: 24px;}
+	.CompanyProfile > .contenr > .right > ul > li > a > p{font-size: 13px;}
+	.honour{height: 496px;}
+	.honour > h1{font-size: 35px;}
+	.honour > div.tops{font-size: 30px; left: 37%;}
+	.wrap{transform: scale(.6); left: -11%; top: 99px;}
+	.history{height: 550px;}
+	.history > div.content > p{font-size: 11px;}
+	.history > div.content > p:nth-child(2){top: 24px;}
+	.history > div.content > p:nth-child(3){top: 266px;}
+	.history > div.content > p:nth-child(4){top: 0px;}
+	.history > div.content > p:nth-child(5){top: 266px;}
+	.history > div.content > p:nth-child(6){top: 0px;}
+	.history > div.content > p:nth-child(7){top: 240px; font-size: 11px;}
+	.history > div.content > p:nth-child(8){top: 24px;}
+	.history > div.content > p:nth-child(9){top: 179px; left: 12.5%;}
+	.history > div.content > p:nth-child(10){top: 114px;left: 23.4%;}
+	.history > div.content > p:nth-child(11){top: 179px; left: 34.5%;}
+	.history > div.content > p:nth-child(12){top: 114px; left: 45.8%;}
+	.history > div.content > p:nth-child(13){top: 179px; left: 56.7%;}
+	.history > div.content > p:nth-child(14){top: 114px; left: 67%;}
+	.history > div.content > p:nth-child(15){top: 179px; left: 79.1%;}
+	footer{height: 147px;}
+	footer > .logo{height: 45px; width: 11%;}
+	footer > .footerContent {height: 107px;}
+	footer > .footerContent >dl > dt {font-size: 13px;}
+	footer > .footerContent >dl > dd {font-size: 8px;margin-top: 6px;}
+	footer > .footerContent > .footerContentFoot > img{height: 14px;}
+	footer > .footerContent > .footerContentFoot > div{font-size: 7px;}
+	footer > .footerRiht{height: 110px;}
+}
+@media screen and (max-width:1024px) {
+	header{height: 50px;}
+	header > .imgs{height: 47px;}
+	header > ul{height: 50px; line-height: 50px;}
+	header > ul > a > li {width: 62px;margin-right: 22px; line-height: 50px;}
+	.banner{height: 236px;}
+	.CompanyProfile > h1{font-size: 27px;height: 80px; line-height: 80px; margin-top: 10px;}
+	.CompanyProfile > span{font-size: 26px; left: 39%; top: 15px;}
+	.CompanyProfile > .contenr{top: 102px; height: 315px;}
+	.CompanyProfile > .contenr > .left{height: 259px;}
+	.CompanyProfile > .contenr > .right > p{font-size: 9px; line-height: 12px; letter-spacing: 4px;}
+	.CompanyProfile > .contenr > .right > ul > li > a > div {height: 30px; line-height: 30px;}
+	.honour{margin-top: 0px; height: 429px;}
+	.honour > h1{font-size: 27px;height: 80px; line-height: 80px; margin-top: 10px; top: 0;}
+	.honour > div.tops{font-size: 26px; left: 38%; top: 15px;}
+	.wrap{transform: scale(.6); left: -18%; top: 59px;}
+	.history{height: 473px;}
+	.history > h1{font-size: 27px;height: 80px; line-height: 80px;}
+	.history > div.tops{font-size: 26px;  top: 3px; left: 36%;}
+	.history > div.content{top: 85px;}
+	.history > div.content > p{font-size: 10px;}
+	.history > div.content > p:nth-child(2){top: 14px;}
+	.history > div.content > p:nth-child(3){top: 229px;}
+	.history > div.content > p:nth-child(4){top: -8px;}
+	.history > div.content > p:nth-child(5){top: 229px;}
+	.history > div.content > p:nth-child(6){top: -8px;}
+	.history > div.content > p:nth-child(7){top: 200px; font-size: 10px;}
+	.history > div.content > p:nth-child(8){top: 14px;}
+	.history > div.content > p:nth-child(9){top: 150px; left: 12%;}
+	.history > div.content > p:nth-child(10){top: 92px;left: 22.6%;}
+	.history > div.content > p:nth-child(11){top: 150px; left: 34%;}
+	.history > div.content > p:nth-child(12){top: 92px; left: 45.3%;}
+	.history > div.content > p:nth-child(13){top: 150px; left: 56%;}
+	.history > div.content > p:nth-child(14){top: 92px; left: 67%;}
+	.history > div.content > p:nth-child(15){top: 150px; left: 79.1%;}
+	footer {height: 141px;}
+	footer > .footerContent >dl > dt {font-size: 12px;}
+	footer > .footerContent >dl > dd {font-size: 9px;}
+	footer > .logo {height: 42px;}
+	footer > .footerContent {height: 114px;}
+	footer > .footerRiht {height: 99px;}
+}

@@ -1,0 +1,133 @@
+/* 头部开始 */
+header{width: 100%; height: 80px; position: relative; z-index: 1; line-height: 80px;  transition: .2s ease-in; border-top: 5px #d8201a solid; background-color: white;}
+header > .imgs{margin-left: 10.9%; width: 13% ;background: url(../../img/Logo1.png) no-repeat; height: 75px; line-height: 71px;background-size: 100% 100%; position: absolute;  transition: .2s ease-in;}
+header > ul{width: 70%; position: absolute; top: 0px; height: 80px; margin-left: 37%;}
+header > ul > a{font-weight: bold; font-size: 25px; color: black; transition: .2s ease-in;}
+header:hover > ul > a{color: black; transition: .2s ease-in;}
+header > ul > a > li{float: left; height: 100%; line-height: 80px; width: 120px; text-align: center; margin-right: 43px;}
+header > ul > a > li:hover{margin-top: 0px;background-color: #d8201a; color: white;transition: .3s ease-in;}
+/* 头部结束 */
+#app{width: 100%; position: relative;  background: url(../../img/smartSite/background.png) no-repeat; background-position: bottom; padding-bottom: 100px; background-size: 130% 11%;}
+#app > .banner{width: 100%; height: 400px;}
+#app > font{position: absolute;z-index: 10;}
+#app > font:nth-child(2){left: 40%; top: 100px; color: white; font-size: 90px;}
+#app > font:nth-child(3){left: 41%;top: 250px; color: white; font-size: 18px;}
+#app > .contents{width: 76%;margin: 0 auto;position: relative;height: 710px;}
+#app > .contents > .title{height: 40px; line-height: 40px; font-size: 20px; font-weight: 100; padding-left: 2.5%;}
+#app > .contents > .left{height: 600px; width: 24%; position: absolute; left: 0; margin-top: 50px; user-select: none;}
+#app > .contents > .left > dl{border-radius: 20px; border: #dddddd 1px solid; width: 100%; cursor: pointer; overflow: hidden;}
+#app > .contents > .left > dl > dt{height: 47px;line-height: 47px; color: #d71f19; width: 100%; position: relative; }
+#app > .contents > .left > dl > dt > span:nth-child(1){font-size: 23px; padding-left: 3%;}
+#app > .contents > .left > dl > dt > span:nth-child(2){font-weight: bold; font-size: 20px; margin-left: 10px; letter-spacing: 2px;}
+#app > .contents > .left > dl > dt > span:nth-child(3){position: absolute; right: 3%;font-weight: bold;}
+#app > .contents > .left > dl > a > dd{height: 50px; line-height: 50px; padding-left: 19%; font-weight: bold; font-size: 16px; display: block; opacity: 1; color: #000000;}
+#app > .contents > .left > dl > a:nth-child(7) > dd{border-right: #db2e18 1px solid; background-color: #fbeae7;}
+#app > .contents > .left > dl > a > dd:hover{border-right: #db2e18 1px solid; background-color: #fbeae7;}
+#app > .contents > .right{position: absolute; right: 0; width: 70%;margin-top: 50px;}
+#app > .contents > .right > .title{text-align: center; font-size: 30px; font-weight: bold;}
+#app > .contents > .right > .fonts{width: 100%; position: relative; margin-top: 30px;}
+#app > .contents > .right > .fonts > span:nth-child(1){cursor: pointer;}
+#app > .contents > .right > .fonts > span:nth-child(2){margin-left: 5%;}
+#app > .contents > .right > .fonts > span:nth-child(2) > font{cursor: pointer;}
+#app > .contents > .right > .fonts > span:nth-child(2) > font:nth-child(2){font-weight: bold;}
+#app > .contents > .right > .fonts > span:nth-child(3){position: absolute;right: 0;}
+#app > .contents > .right > .content{text-indent: 2rem; margin-top: 30px;letter-spacing: 7px; line-height: 40px; font-size: 21px;}
+#app > .contents > .right > .content > img{width: 100%;}
+#app > .contents > .right > .content > p >span{font-weight: bold;}
+/* 底部开始 */
+.clear{clear: both;}
+footer{width: 100%; height: 300px; background-color: #f1f1f1; position: relative;}
+footer > .logo{margin-left: 14%; height: 50px; width: 8%; top: 127px; position: absolute; margin-right: 3%; display: inline-block;}
+footer > .logo >img{width: 100%; height: 100%;}
+footer > .footerContent{width: 53%; height: 200px; display: inline-block; margin-left:25%; border-left: 2px solid #b00000; position: absolute; top: 50px;}
+footer > .footerContent > dl{float: left; width: 14%;margin-right: 16%;}
+footer > .footerContent > dl:nth-child(1){margin-left: 5.6%;}
+footer > .footerContent > dl > dt{font-weight: bold; font-size: 18px;}
+footer > .footerContent > dl > dt > a{color: #111111;}
+footer > .footerContent > dl > dd{margin-top: 15px;}
+footer > .footerContent > dl > dd > a{color: #6b6b6b;}
+footer > .footerContent > dl > dd > a:hover{color: #b20101;}
+footer > .footerContent > .footerContentFoot{width: 300%; height: 22px; margin-left: 5.6%; position: absolute;bottom: 0;}
+footer > .footerContent > .footerContentFoot > img{width: 23px; height: 23px;}
+footer > .footerContent > .footerContentFoot > div{font-weight: bold; display: inline-block; line-height: 28px; height: 28px; font-size: 10px; position: absolute;}
+footer > .footerRiht{width: 8.9%; height: 202px; position: absolute; top: 48px; margin-left: 75.5%; text-align: center;}
+footer > .footerRiht > img.erweima{width: 6.25rem; height: 6.25rem;}
+footer > .footerRiht > div{font-weight: bold;margin-top: 10px; margin-bottom: 32px;}
+/* 底部结束 */
+
+@media screen and (max-width:1680px) {
+	header{height: 63px; line-height: 63px;}
+	header > .imgs{height: 64px;}
+	header > ul{height: 63px;}
+	header > ul > a{font-size: 23px;}
+	header > ul > a > li{margin-right: 14px; line-height: 65px;}
+	#app > .banner{height: 350px;}
+	#app > font:nth-child(3) {top: 218px;font-size: 16px;}
+	#app > .contents{height: 680px;}
+	#app > .contents > .left > dl > a > dd {padding-left: 24%; font-size: 15px;}
+	#app > .contents > .right > .title {font-size: 28px;}
+	#app > .contents > .right > .fonts {font-size: 13px;}
+	#app > .contents > .right > .content {font-size: 17px; line-height: 35px;}
+	footer{height: 181px;}
+	footer > .logo{top: 56px;}
+	footer > .footerContent{top: 20px; height: 133px;}
+	footer > .footerContent >dl > dt{font-size: 16px;}
+	footer > .footerContent >dl > dd{font-size: 10px; margin-top: 11px;}
+	footer > .footerContent > .footerContentFoot > img {width: 24px;height: 22px;}
+	footer > .footerRiht{top: 20px; width: 10.9%; height: 153px;}
+	footer > .footerRiht > img.erweima{width: 50px; height: 50px;}
+	footer > .footerRiht > div{margin-bottom: 10px;}
+}
+@media screen and (max-width:1366px) {
+	header{height: 50px; line-height: 50px;}
+	header > .imgs{height: 51px; width: 157px;}
+	header > ul{height: 50px;}
+	header > ul > a{font-size: 19px;}
+	header > ul > a > li{line-height: 52px; width: 92px; margin-right: 24px;}
+	#app{background-size: 130% 9%;}
+	#app > .contents {height: 530px;}
+	#app > .contents > .left > dl > dt > span:nth-child(1) {font-size: 19px;}
+	#app > .contents > .left > dl > dt > span:nth-child(2) {margin-left: 6px; font-size: 17px;}
+	#app > .contents > .left > dl > a > dd {padding-left: 23%;font-size: 15px; height: 35px; line-height: 35px;}
+	#app > .contents > .right > .content {margin-top: 22px;font-size: 13px;line-height: 28px;}
+	footer > .footerContent > .footerContentFoot > div {font-size: 8px;}
+	footer > .footerContent > .footerContentFoot > img {height: 15px; width: 15px;	}
+	footer > .logo{width: 10%; height: 50px;}
+}
+@media screen and (max-width:1100px) {
+	header{height: 47px;}
+	header > ul {width: 56%; height: 47px;}
+	header > ul > a {font-size: 14px;}
+	header > ul > a > li{width: 78px; margin-right: 13px; line-height: 47px;}
+	header > .imgs{height: 46px;}
+	#app > font:nth-child(2) {font-size: 70px;}
+	#app > font:nth-child(3) {top: 200px;font-size: 13px;}
+	#app > .contents{height: 510px;}
+	#app > .contents > .title {height: 35px;line-height: 35px;font-size: 17px;}
+	#app > .contents > .left > dl > dt {height: 35px;line-height: 35px;}
+	#app > .contents > .left > dl > dt > span:nth-child(1) {font-size: 13px;}
+	#app > .contents > .left > dl > dt > span:nth-child(2) {font-size: 13px;}
+	#app > .contents > .left > dl > a > dd {padding-left: 22%;font-size: 12px;}
+	#app > .contents > .right > .content {letter-spacing: 4px; font-size: 12px; line-height: 26px;}
+	footer{height: 147px;}
+	footer > .logo{height: 45px; width: 11%;}
+	footer > .footerContent {height: 107px;}
+	footer > .footerContent >dl > dt {font-size: 13px;}
+	footer > .footerContent >dl > dd {font-size: 8px;margin-top: 6px;}
+	footer > .footerContent > .footerContentFoot > img{height: 14px;}
+	footer > .footerContent > .footerContentFoot > div{font-size: 7px;}
+	footer > .footerRiht{height: 110px;}
+}
+@media screen and (max-width:1024px) {
+	header{height: 50px;}
+	header > .imgs{height: 47px;}
+	header > ul{height: 50px; line-height: 50px;}
+	header > ul > a > li {width: 62px;margin-right: 22px; line-height: 50px;}
+	#app > .contents{height: 495px;}
+	footer {height: 141px;}
+	footer > .footerContent >dl > dt {font-size: 12px;}
+	footer > .footerContent >dl > a > dd {font-size: 9px;}
+	footer > .logo {height: 42px;}
+	footer > .footerContent {height: 114px;}
+	footer > .footerRiht {height: 99px;}
+}

@@ -1,0 +1,44 @@
+{
+  "id": "1985057",
+  "name": "成功案例",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4625974",
+      "name": "教育",
+      "font_class": "jiaoyu",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "938733",
+      "name": "其他",
+      "font_class": "other",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "798483",
+      "name": "金融",
+      "font_class": "m-jinrong",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "7909286",
+      "name": "政府",
+      "font_class": "zhengfu",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "14951142",
+      "name": "电网",
+      "font_class": "zu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

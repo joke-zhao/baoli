@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0;}
+/* body,html{ overflow-x: hidden;font-family: "MyFont";} */
+body,html{ overflow-x: hidden;font-family: "微软雅黑","宋体";}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+.clear{clear: both;}
+@font-face {
+	font-family:MyFont;
+	src: url(./SourceHanSansCN-Normal.ttf);
+}

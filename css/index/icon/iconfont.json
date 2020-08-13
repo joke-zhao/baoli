@@ -1,0 +1,79 @@
+{
+  "id": "1932632",
+  "name": "54654",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9139075",
+      "name": "海关",
+      "font_class": "haiguan",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "12665897",
+      "name": "北斗",
+      "font_class": "beidou",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2905785",
+      "name": "林业安全",
+      "font_class": "linyeanquan",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "4330113",
+      "name": "智慧工地 企业版APP",
+      "font_class": "zhihuigongdiqiyebanAPP",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "8525833",
+      "name": "5G wifi",
+      "font_class": "method-draw-image",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "9373620",
+      "name": "智慧园区",
+      "font_class": "ziyuan",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "10482416",
+      "name": "数据安全",
+      "font_class": "shujuanquan",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "10935002",
+      "name": "数据管理",
+      "font_class": "shujuguanli",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "11379958",
+      "name": "高校智慧校园",
+      "font_class": "gaoxiaozhihuixiaoyuan",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "15345212",
+      "name": "数字孪生",
+      "font_class": "shuziluansheng",
+      "unicode": "e835",
+      "unicode_decimal": 59445
+    }
+  ]
+}

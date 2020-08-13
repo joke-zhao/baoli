@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>数据服务</title>
+	<script src="https://www.jq22.com/jquery/vue.min.js"></script>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/jquery.jqprint-0.3.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/data/data.css"/>
+	<link rel="stylesheet" type="text/css" href="css/data/icon/iconfont.css"/>
+</head>
+<body id="bodys">
+		<header>
+			<div class="imgs"></div>
+			<ul>
+				<a href="index.html">
+					<li>首页</li>
+				</a>
+				<a href="trueStart.html">
+					<li>产品服务</li>
+				</a>
+				<a href="smartSite.html">
+					<li>解决方案</li>
+				</a>
+				<a href="case.html">
+					<li>成功案例</li>
+				</a>
+				<a href="aboutUS.html">
+					<li>关于我们</li>
+				</a>
+			</ul>
+			<div class="clear"></div>
+		</header>
+		<div id="app">
+			<img :src="img" class="banner">
+			<font v-text="banneTitleOne"></font>
+			<font v-text="banneTitleTwo"></font>
+			<div class="contents">
+				<div v-text="title" class="title"></div>
+				<hr color="#cccccc">
+				<div class="left">
+					<dl>
+						<dt @click="move()">
+							<span class="iconfont">&#xe60d;</span>
+							<span>产品服务</span>
+							<span v-text="productTitle"></span>
+						</dt>
+						<a :href="item.href"  v-for="(item, i) in arr"><dd>{{ item.name }}</dd></a>
+					</dl>
+				</div>
+				<div class="right">
+					<div v-text="RightTitle" class="title"></div>
+					<div class="fonts">
+						<span @click="dayin()">【打印】</span>
+						<span>【字体：<font @click="big()">大</font> <font @click="middle()">中</font> <font @click="small()">小</font>】</span>
+						<span>【本篇访问：453】</span>
+					</div>
+					<hr style="border: 1px dashed #e1e1e1; margin-top: 10px;">
+					<div class="content">
+						<span>产品概述：</span>
+						<p>主要是针对政企客户的的业务数据安全管理所遇到的痛点问题，打造一个数据安全管控平台，以解决业务数据的存储安全、数据使用安全和数据访问安全等，赋能客户的业务拓展。</p>
+						<span>产品架构：</span>
+						<img src="img/data/data.png" alt="data">
+						<span>产品优势：</span>
+						<div>（1）构建数据存储安全能力 数据即时备份与快速恢复，解决RTO问题、解决数据被勒索问题； 业务连续性保护，解决RPO问题 。</div>
+						<div>（2）构建数据使用安全能力针对企业大量数据使用需求 ：解决数据快速提供问题，解决使用需求 。解决数据数据使用生命周期管理问题，数据遗失与泄漏问题 。</div>
+						<div>（3）构建数据访问安全能力 解决数据访问安全，防止恶意访问与人为错误；解决预期内数据访问安全问题；数据脱敏与使用，解决业务数据使用泄漏问题。</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="logo">
+				<img src="img/logo.png" alt="宝立logo">
+			</div>
+			<div class="footerContent">
+				<dl>
+					<dt><a href="aboutUS.html">关于我们</a></dt>
+					<dd><a href="aboutUS.html">公司介绍</a></dd>
+					<dd><a href="#">企业文化</a></dd>
+					<dd><a href="ContactUs.html">联系我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="trueStart.html">产品服务</a></dt>
+					<dd><a href="trueStart.html">信创产品</a></dd>
+					<dd><a href="service.html">云监测</a></dd>
+					<dd><a href="data.html">数据服务</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">加入我们</a></dt>
+					<dd><a href="#">招纳贤士</a></dd>
+				</dl>
+				<div class="clear"></div>
+				<div class="footerContentFoot">
+					<img src="img/jinghui.png" alt="警徽">
+					<div style="text-indent: 6px;">粤ICP备16021202号 | 2020 Copyright &copy; Guangzhou Baoli Technology Co., Ltd | 版权所有     2015-2020 广州宝立科技有限公司</div>
+				</div>
+			</div>
+			<div class="footerRiht">
+				<img src="img/erweima.png" alt="宝立二维码" class="erweima">
+				<div>关注我们</div>
+			</div>
+		</footer>
+	</body>
+	<script src="js/data.js" type="text/javascript" charset="utf-8"></script>
+</html>

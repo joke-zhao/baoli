@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>北斗</title>
+	<script src="https://www.jq22.com/jquery/vue.min.js"></script>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/jquery.jqprint-0.3.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/thePlough/thePlough.css"/>
+	<link rel="stylesheet" type="text/css" href="css/thePlough/icon/iconfont.css"/>
+</head>
+<body id="bodys">
+		<header>
+			<div class="imgs"></div>
+			<ul>
+				<a href="index.html">
+					<li>首页</li>
+				</a>
+				<a href="trueStart.html">
+					<li>产品服务</li>
+				</a>
+				<a href="smartSite.html">
+					<li>解决方案</li>
+				</a>
+				<a href="case.html">
+					<li>成功案例</li>
+				</a>
+				<a href="aboutUS.html">
+					<li>关于我们</li>
+				</a>
+			</ul>
+			<div class="clear"></div>
+		</header>
+		<div id="app">
+			<img :src="img" class="banner">
+			<font v-text="banneTitleOne"></font>
+			<font v-text="banneTitleTwo"></font>
+			<div class="contents">
+				<div v-text="title" class="title"></div>
+				<hr color="#cccccc">
+				<div class="left">
+					<dl>
+						<dt @click="move()">
+							<span class="iconfont">&#xe60d;</span>
+							<span>解决方案</span>
+							<span v-text="productTitle"></span>
+						</dt>
+						<a :href="item.href"  v-for="(item, i) in arr"><dd>{{ item.name }}</dd></a>
+					</dl>
+				</div>
+				<div class="right">
+					<div v-text="RightTitle" class="title"></div>
+					<div class="fonts">
+						<span @click="dayin()">【打印】</span>
+						<span>【字体：<font @click="big()">大</font> <font @click="middle()">中</font> <font @click="small()">小</font>】</span>
+						<span>【本篇访问：453】</span>
+					</div>
+					<hr style="border: 1px dashed #e1e1e1; margin-top: 10px;">
+					<div class="content">
+						<span>方案概述：</span>
+						<p>该方案是集北斗高精度卫星定位技术、智能采集终端、LBS 基站定位技术及物联网传感技术、内外业数据采集处理全流程软件于一体的智能数据采集解决方案。</p>
+						<span>主要功能：</span>
+						<p>1、 实现高精度数据采集：支持属性采集、坐标采集、照片采集等多样化采集方式，并自动生成它们之间的拓扑关系。</p>
+						<p>2、掌握采集人员作业情况：工作任务信息化、数据采集标准化，在照片采集模块中加入了时间戳、坐标戳功能，有效保障采集人员到现场、按要求、合标准地展开数据采集工作，杜绝漏采、假采。</p>
+						<p>3、两种地图结合显示：采集人员可通过手持终端查询现场的设施分布情况。导入和采集的设备均可在地图上实时显示，普通模式下采用百度在离线地图作为底图显示。在需放大到五米以上大比例尺地图时，还可切换为离线卫星影像图模式，实现无级别缩放，保证设备之间相对位置准确。</p>
+						<p>4、已有数据的导入与核查：外业数据采集软件可以智能读取导入文件，匹配国网标准化的 Excel 文件。地图上会显示待核查设备，可以实时查看设备的所在位置，避免采集人员找不到待核查设备的尴尬情况。配合外业质检功能作业，支持照片核查、数据统计、数据质检等成果管理功能，并自动生成 PDF 格式报告，使得核查工作保质保量地完成。</p>
+						<p>5、智能化数据处理导出：系统自动生成数据处理成果，一键式导出 CAD、台账、照片等成果文件夹。一次可导出多种表格，成果标准化处理可直接导入电网内部系统。一步完成所有内业处理工作，有效减轻数据处理人员工作负担，大大提高工作效率。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="logo">
+				<img src="img/logo.png" alt="宝立logo">
+			</div>
+			<div class="footerContent">
+				<dl>
+					<dt><a href="aboutUS.html">关于我们</a></dt>
+					<dd><a href="aboutUS.html">公司介绍</a></dd>
+					<dd><a href="#">企业文化</a></dd>
+					<dd><a href="ContactUs.html">联系我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="trueStart.html">产品服务</a></dt>
+					<dd><a href="trueStart.html">信创产品</a></dd>
+					<dd><a href="service.html">云监测</a></dd>
+					<dd><a href="data.html">数据服务</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">加入我们</a></dt>
+					<dd><a href="#">招纳贤士</a></dd>
+				</dl>
+				<div class="clear"></div>
+				<div class="footerContentFoot">
+					<img src="img/jinghui.png" alt="警徽">
+					<div style="text-indent: 6px;">粤ICP备16021202号 | 2020 Copyright &copy; Guangzhou Baoli Technology Co., Ltd | 版权所有     2015-2020 广州宝立科技有限公司</div>
+				</div>
+			</div>
+			<div class="footerRiht">
+				<img src="img/erweima.png" alt="宝立二维码" class="erweima">
+				<div>关注我们</div>
+			</div>
+		</footer>
+	</body>
+	<script src="js/thePlough.js" type="text/javascript" charset="utf-8"></script>
+</html>

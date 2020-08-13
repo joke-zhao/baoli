@@ -1,0 +1,16 @@
+{
+  "id": "1965403",
+  "name": "细览页",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7269273",
+      "name": "解决方案",
+      "font_class": "jiejuefangan",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}
